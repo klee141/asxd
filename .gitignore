@@ -1,0 +1,44 @@
+# Secrets and local environment files
+.env
+.env.*
+*.env
+!.env.example
+!.env.sample
+!.env.template
+
+# Python local environments
+.venv/
+venv/
+env/
+ENV/
+.python-version
+
+# Python cache and build artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+dist/
+build/
+*.egg-info/
+.eggs/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Editor and IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
